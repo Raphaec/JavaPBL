@@ -1,14 +1,29 @@
 package models;
 
+
 public class Item {
-    private int id;
+    private final int id;
     private String nome;
     private String descricao;
-    private int tipo;
     private int qtd;
+    private String tipo;
 
+    public Item(int id, String nome) {
+        this.id = id;
+        this.nome = nome;
+    }
 
-    public void consumir(){
-        
+    public int getId() { return id; }
+    public String getNome() { return nome; }
+    public void setNome(String nome) { this.nome = nome; }
+    public String getDescricao() { return descricao; }
+    public void setDescricao(String descricao) { this.descricao = descricao; }
+    public int getQtd() { return qtd; }
+    public void setQtd(int qtd) { this.qtd = qtd; }
+    public String getTipo() { return tipo; }
+    public void setTipo(String tipo) { this.tipo = tipo; }
+
+    public void consumir() {
+        // Lógica de consumo
     }
 }
