@@ -20,7 +20,8 @@ public class MenuController {
                 if (option == 1) {
                     atributeOption = Menu.openAtributesMenu();
 
-                    Jogo jogo = new Jogo(atributeOption);
+                    Jogo jogo = new Jogo();
+                    jogo.iniciarJogo(atributeOption);
 
                     while (!List.of(1, 2, 3).contains(atributeOption))
                         atributeOption = Menu.openAtributesMenu();

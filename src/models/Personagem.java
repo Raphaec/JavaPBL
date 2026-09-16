@@ -9,7 +9,7 @@ public abstract class Personagem {
     private List<Dialogo> dialogos;
 
     public Personagem(int id, String nome) {
-        this.id = id;
+        this.id = 1;
         this.nome = nome;
     }
 
