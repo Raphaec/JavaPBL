@@ -8,8 +8,8 @@ public abstract class Personagem {
     private String nome;
     private List<Dialogo> dialogos;
 
-    public Personagem(String nome) {
-        this.id = 1;
+    public Personagem(int id, String nome) {
+        this.id = id;
         this.nome = nome;
     }
 
