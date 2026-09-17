@@ -17,11 +17,4 @@ public class Inventario {
     public boolean isAcessivel() { return acessivel; }
     public void setAcessivel(boolean acessivel) { this.acessivel = acessivel; }
 
-    public void guardarItem(Item item) {
-        // Lógica para guardar
-    }
-
-    public void removerItem(Item item) {
-        // Lógica para remover
-    }
 }

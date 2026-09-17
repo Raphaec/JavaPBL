@@ -8,7 +8,7 @@ public class Protagonista extends Personagem {
     private Inventario inventario;
 
     public Protagonista(int id, String nome) {
-        super( nome);
+        super(id, nome);
     }
 
     public List<Integer> getCaracteristicas() { return caracteristicas; }
@@ -16,8 +16,4 @@ public class Protagonista extends Personagem {
     public Inventario getInventario() { return inventario; }
     public void setInventario(Inventario inventario) { this.inventario = inventario; }
 
-    @Override
-    public void falar() {
-        // Implementação da fala do protagonista
-    }
 }

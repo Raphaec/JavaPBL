@@ -19,5 +19,4 @@ public abstract class Personagem {
     public List<Dialogo> getDialogos() { return dialogos; }
     public void setDialogos(List<Dialogo> dialogos) { this.dialogos = dialogos; }
 
-    public abstract void falar();
 }

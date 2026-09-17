@@ -23,7 +23,5 @@ public class Item {
     public String getTipo() { return tipo; }
     public void setTipo(String tipo) { this.tipo = tipo; }
 
-    public void consumir() {
-        // Lógica de consumo
-    }
+
 }
