@@ -1,9 +1,4 @@
-
-import java.util.List;
-import java.util.Scanner;
-
-import contollers.MenuController;
-import views.Menu;
+import controllers.MenuController;
 
 public class Main {
     public static void main(String[] args) {

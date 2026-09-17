@@ -5,7 +5,7 @@ public class Prelacionavel extends Personagem {
     private String percepcao;
 
     public Prelacionavel(int id, String nome) {
-        super(id, nome);
+        super(nome);
     }
 
     public String getPercepcao() { return percepcao; }

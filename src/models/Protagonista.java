@@ -8,7 +8,7 @@ public class Protagonista extends Personagem {
     private Inventario inventario;
 
     public Protagonista(int id, String nome) {
-        super(id, nome);
+        super( nome);
     }
 
     public List<Integer> getCaracteristicas() { return caracteristicas; }
