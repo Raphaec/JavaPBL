@@ -1,0 +1,117 @@
+# Tabelas de Deltas — "A Noite que Não se Apaga"
+
+> 0–100
+> Valores iniciais: `memória`=0, `estabilidade`=50, `culpa`=50, `confFauan`=50, `vincPassos`=50, `suspToin`=50
+> 🔒 = escolha condicionada 
+
+## Capítulo 1 — "A Noite que Não se Apaga"
+
+| Cena | Escolha | Memória | ConfFauan | VincPassos | SuspToin | EstabEmoc | CulpaPerc | Pista ganha |
+
+| 1 | A — "Eu congelei" | +15 | +10 | 0 | 0 | +10 | +10 | — |
+| 1 | B — "Eu tentei" | +5 | -10 | 0 | 0 | -10 | -15 | — |
+
+| 2 | A — nomeia traição | +15 | +5 | -15 | 0 | -5 | +5 | — |
+| 2 | B — esconde motivo | +5 | -15 | +10 | 0 | 0 | 0 | — |
+
+| 3 | A — confusão honesta | +20 | +15 | 0 | +15 | -10 | 0 | — |
+| 3 | B — defende Toin | +5 | -10 | 0 | 0 | 0 | 0 | — |
+
+| 4 | A — cheiro de gasolina | +25 | +20 | 0 | +10 | +5 | -5 | "Cheiro de gasolina" |
+| 4 | B — nega/evita | +5 | -15 | 0 | 0 | -15 | +10 | — |
+
+| 5 | A — sombra na porta | +20 | +5 | +15 | +15 | 0 | 0 | "Sombra desconhecida" |
+| 5 | B — só o filho | +10 | +10 | 0 | 0 | +10 | 0 | — |
+| 5 | C 🔒 — confronto direto | +30 | +25 | +10 | +25 | +15 | -20 | — |
+
+**Cena 5, Escolha C**: requer suspToin ≥ 65 E posse da pista "Cheiro de gasolina", ou seja, o cara tem q escolher letra A na 4.
+
+---
+
+## Capítulo 2 — "Três Dias Antes"
+
+> Mecânica extra: cada escolha de tom (A=frio, B=equilibrado, C=quente) compara com o `Temperamento` fixo do personagem.
+> Tom == Temperamento → +5 EstabEmoc
+> Tom ≠ Temperamento → -5 EstabEmoc / +5 ConfFauan
+
+| Cena | Tom | Memória | ConfFauan | VincPassos | SuspToin | EstabEmoc | CulpaPerc | Pista ganha |
+
+| 1 | A (frio) | +10 | 0 | 0 | -5 | 0 | 0 | — |
+| 1 | B (equilibrado) | +15 | +5 | 0 | +10 | 0 | 0 | — |
+| 1 | C (quente) | +15 | -5 | 0 | +15 | -10 | +5 | — |
+
+| 2 | A (frio) | +10 | +5 | -10 | 0 | 0 | -5 | — |
+| 2 | B (equilibrado) | +10 | 0 | 0 | 0 | +5 | 0 | — |
+| 2 | C (quente) | +15 | -10 | -15 | 0 | -10 | +15 | — |
+
+| 3 | A (frio) | +10 | -5 | 0 | +5 | 0 | 0 | — |
+| 3 | B (equilibrado) | +10 | +5 | 0 | +5 | 0 | 0 | — |
+| 3 | C (quente) | +10 | -10 | 0 | +10 | -15 | +10 | — |
+| 3 | D 🔒 (confronto frio) | +25 | +15 | 0 | +25 | -5 | -10 | "Ameaça velada ao Bruno" |
+
+**Cena 3, Escolha D**:Temperamento == SANGUE_FRIO E suspToin ≥ 40.
+
+---
+
+## Capítulo 3 — "Origem: Dois Meninos"
+
+> Flashback sem Fauan em cena, por isso ConfFauan não é afetado.
+
+| Cena | Tom | Memória | ConfFauan | VincPassos | SuspToin | EstabEmoc | CulpaPerc | Pista ganha |
+|---|---|---|---|---|---|---|---|---|
+| 1 | A (frio) | +5 | 0 | +5 | 0 | 0 | 0 | — |
+| 1 | B (equilibrado) | +5 | 0 | +10 | -5 | +5 | 0 | — |
+| 1 | C (quente) | +5 | 0 | +5 | 0 | +5 | 0 | — |
+
+---
+
+## Capítulo 4 — "O Queixo do Toin"
+
+| Cena | Escolha | Memória | ConfFauan | VincPassos | SuspToin | EstabEmoc | CulpaPerc | Pista ganha |
+
+| 1 | A (frio) | +10 | 0 | -5 | 0 | 0 | 0 | — |
+| 1 | B (equilibrado) | +15 | +5 | 0 | 0 | 0 | 0 | — |
+| 1 | C (quente) | +15 | -5 | 0 | +5 | -10 | +5 | — |
+| 1 | D 🔒 | +20 | +10 | +20 | 0 | +10 | -5 | — |
+
+| 2 | A — fúria | +10 | -5 | +20 | -15 | -10 | -20 | — |
+| 2 | B — dúvida | +20 | +15 | -10 | +10 | -15 | +15 | — |
+
+| 3 | A (frio) | +15 | +10 | 0 | +10* | 0 | 0 | "Pergunta sobre o alarme"* |
+| 3 | B (equilibrado) | +10 | 0 | +5 | 0 | 0 | 0 | — |
+| 3 | C (quente) | +15 | -5 | 0 | +15* | -10 | +10 | "Pergunta sobre o alarme"* |
+
+| 4 | A — investiguem os 3 | +10 | +20 | 0 | 0 | +10 | 0 | — |
+| 4 | B — defende Passos | +10 | -5 | +25 | -10 | 0 | -10 | — |
+| 4 | C 🔒 — acusa Toin | +25 | +15 | -5 | +30 | -5 | +5 | — |
+
+**Cena 1, Escolha D**: requer `vincPassos ≥ 65`.
+**Cena 2** fixa a variável `posturaPaternidade` (`NEGACAO_TOTAL` ou `DUVIDA_ABERTA`) — persiste até o Capítulo 5.
+**Cena 3, A/C** (marcado com \*) — bônus e pista só se `suspToin ≥ 50` já acumulado antes desta cena.
+**Cena 4, Escolha C**: requer suspToin ≥ 70 E pistas `"Pergunta sobre o alarme"` + `"Alarme desligado manualmente"`.
+**Cena 4** também adiciona automaticamente a pista `"Alarme desligado manualmente"`, independente da escolha (revelação de Fauan).
+
+---
+
+## Capítulo 5 — "O Veredito" (final)
+
+| Cena | Escolha | Memória | ConfFauan | VincPassos | SuspToin | EstabEmoc | CulpaPerc |
+|---|---|---|---|---|---|---|---|
+| 1 | A (frio) | +5 | +5 | 0 | +5 | 0 | 0 |
+| 1 | B (equilibrado) | +10 | +10 | 0 | +10 | 0 | 0 |
+| 1 | C (quente) | +5 | -5 | 0 | +10 | -10 | 0 |
+| 1 | D 🔒 | +15 | +25 | 0 | +25 | -5 | 0 |
+
+| 2 | A/B (varia por posturaPaternidade) | +10 | +5 | +15 | 0 | +5 | -10 |
+
+| 3 | Decide destino do Bruno — ver regra especial | +20 (fecha memória em 100) | — | (ver regra) | — | (usada na regra) | — |
+
+| 4 | Sem escolha — veredito calculado | — | — | — | — | — | — |
+
+**🔒 Cena 1, Escolha D** — requer `suspToin ≥ 70` **E** pistas `"Pergunta sobre o alarme"` + `"Alarme desligado manualmente"`.
+
+**Cena 3 — regra de destino do Bruno:
+- Opção A ("fui até o quarto"): `Bruno vivo` se `estabEmoc ≥ 55`, senão `Bruno morto`.
+- Opção B ("gritei pelo Toin"): `Bruno vivo` se `vincPassos ≥ 60`, senão `Bruno morto`.
+
+**Cena 4 — regra do veredito (sem escolha do jogador):**
